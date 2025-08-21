@@ -72,3 +72,8 @@ H = np.array([5,6])         #resultados
 x = np.linalg.solve(G,H)    #resolução
 print(x)
 
+#autovalores e autovetores
+M = np.array([[4,2],[1,3]])
+autovalores, autovetores = np.linalg.eig(M)
+print(autovalores)
+print(autovetores)
